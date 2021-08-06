@@ -1,0 +1,99 @@
+body{font-family: 'Alata';}
+section{width:80%; margin-left: 8%;}
+.banner-area{
+    width:100%;
+    height: 470px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #2D25A0;
+    color:#fff;
+       
+}
+button{
+    background: #E0246E;
+    padding: 10px;
+}
+button a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.banner-content{
+    text-align:left;
+    margin-left: 100px;
+    font-size:25px;
+    font-weight: bold;
+}
+.banner img{
+    width:540px;
+    height: 420px;
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+/*style of players-area*/
+.players-area{
+    display:grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+       
+}
+.single-player{
+    justify-content: space-between;
+    height:475px;
+    padding: 10px;
+    box-shadow:10px 10px 30px gray;
+    
+}
+.players-area .single-player img{
+    width: 300px;
+    height:256px;
+}
+/*style for highlights area*/
+.highlights-area{
+    display:flex;
+    margin-top: 120px;
+    font-family: 'Alfa Slab One';
+
+}
+.highlights-left{
+    width: 450px;
+}
+.highlights-left h1{
+    font-size: 38px;
+}
+.highlights-left p{line-height: 8mm;}
+.highlights-right img{
+    margin-left: 10%;
+    width:100%;
+    height:400px;
+    
+}
+/* --style for logo-- */
+.logo{margin-top: 130px;}
+.logo img{
+    width:400px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Style all font awesome icons */
+footer{
+    text-align: center !important;
+}
+.sosial-icon .fab {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px; 
+  }
+  .sosial-icon li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+  }
+  
